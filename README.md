@@ -15,7 +15,8 @@ To run this feature, you need the following dependencies:
 - **Font Awesome**: To use the eye icons for toggling visibility.
 - **Tailwind CSS**: For styling the password input and button.
 
-### Example html with tailwind style:
+### How to Use:
+**html setup**
 ```html
 <div class="border-b-2 border-gray-300 dark:border-gray-600 focus-within:border-blue-600 transition-colors">
   <input type="password" name="new_password" id="new_password"
@@ -27,7 +28,7 @@ To run this feature, you need the following dependencies:
   </label>
   <button type="button" data-toggle="togglePassword" data-toggle-eye="new_password"
           class="absolute right-0 top-2 text-gray-500 dark:text-gray-400">
-          <i data-toggle="iconTogglePassword" class="fa-regular fa-eye"></i>
+          <i data-toggle-eye-icon="new_password" class="fa-regular fa-eye"></i>
   </button>
 </div>
 
